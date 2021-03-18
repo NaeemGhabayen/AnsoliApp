@@ -1,0 +1,394 @@
+[
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_align_vertical_bottom_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_align_vertical_bottom_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bg_regester.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\drawable-v24\\bg_regester.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_healing_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_healing_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_power_settings_new_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_power_settings_new_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_alert.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\activity_alert.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_power_settings_new_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_power_settings_new_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_my_patient.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\fragment_my_patient.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_align_vertical_bottom_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_align_vertical_bottom_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_healing_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_healing_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_align_vertical_bottom_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_align_vertical_bottom_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_person_pin_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_home_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_home_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_home_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_home_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_home_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_home_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_carbohydrates.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\fragment_carbohydrates.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_power_settings_new_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_power_settings_new_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_person_pin_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_healing_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_healing_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_person_pin_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sup_home.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\activity_sup_home.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_group_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_group_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_group_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_group_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_healing_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_healing_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_give_an_access.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\fragment_give_an_access.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_relative.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\item_relative.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_group_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_group_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_edit_profile.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\fragment_edit_profile.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_person_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_person_pin_24.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_person_pin_24.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_person_pin_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_person_pin_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_sup_menu.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\menu\\sup_menu.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_person_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_login.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\drawable\\bg_login.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_align_vertical_bottom_24.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_align_vertical_bottom_24.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_person_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_power_settings_new_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_power_settings_new_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_person_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_home_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_home_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_group_24.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_group_24.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_my_reading.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\fragment_my_reading.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_power_settings_new_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_power_settings_new_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_person_pin_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_person_pin_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_power_settings_new_24.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_power_settings_new_24.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_align_vertical_bottom_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_align_vertical_bottom_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_home_24.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_group_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_group_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_group_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_group_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_healing_24.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_healing_24.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_group_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_group_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_home_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_home_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_align_vertical_bottom_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_align_vertical_bottom_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_my_doctor.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\fragment_my_doctor.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_healing_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_healing_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_my_supervision.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\fragment_my_supervision.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_person_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_person_24.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_person_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_person_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_align_vertical_bottom_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_align_vertical_bottom_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_generate_report.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\layout\\fragment_generate_report.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_healing_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_healing_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_home_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_home_24.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logo.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logo.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\App Flutter\\ansolienApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_power_settings_new_24.png.flat",
+        "source": "E:\\App Flutter\\ansolienApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_power_settings_new_24.png"
+    }
+]

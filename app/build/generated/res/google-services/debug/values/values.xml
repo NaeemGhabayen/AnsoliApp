@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">9928987167-viv5pne0gkiou1ssagvrq86meoai6lna.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">9928987167</string>
+    <string name="google_api_key" translatable="false">AIzaSyAaXKMZ7wfFpM3tT5Ufo70_gUX8XIocatE</string>
+    <string name="google_app_id" translatable="false">1:9928987167:android:14e753a468d5e1ddd23b2a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAaXKMZ7wfFpM3tT5Ufo70_gUX8XIocatE</string>
+    <string name="google_storage_bucket" translatable="false">ansolineapp.appspot.com</string>
+    <string name="project_id" translatable="false">ansolineapp</string>
+</resources>

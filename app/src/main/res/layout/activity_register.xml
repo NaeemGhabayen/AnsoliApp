@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Ui.registerActivity">
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@color/purple_200"
+        android:textSize="38dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_AsPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/bg_regester"
+        android:padding="16sp"
+        android:text="As Patient"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_AsDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@drawable/bg_regester"
+        android:padding="16sp"
+        android:text="As Doctor"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_AsRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@drawable/bg_regester"
+        android:padding="16sp"
+        android:text="As Relative"
+        android:textColor="@color/white" />
+</LinearLayout>

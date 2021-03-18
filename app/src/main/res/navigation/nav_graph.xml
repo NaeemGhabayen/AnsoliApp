@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.ansolienapp.Fragment.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/myDoctorFragment"
+        android:name="com.example.ansolienapp.Fragment.myDoctorFragment"
+        android:label="fragment_my_doctor"
+        tools:layout="@layout/fragment_my_doctor" />
+    <fragment
+        android:id="@+id/myReadingFragment"
+        android:name="com.example.ansolienapp.Fragment.myReadingFragment"
+        android:label="fragment_my_reading"
+        tools:layout="@layout/fragment_my_reading" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ansolienapp.Fragment.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>

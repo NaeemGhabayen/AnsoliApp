@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "9928987167",
+    "project_id": "ansolineapp",
+    "storage_bucket": "ansolineapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9928987167:android:14e753a468d5e1ddd23b2a",
+        "android_client_info": {
+          "package_name": "com.example.ansolienapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9928987167-viv5pne0gkiou1ssagvrq86meoai6lna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaXKMZ7wfFpM3tT5Ufo70_gUX8XIocatE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9928987167-viv5pne0gkiou1ssagvrq86meoai6lna.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

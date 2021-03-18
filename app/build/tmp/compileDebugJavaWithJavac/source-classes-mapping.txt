@@ -1,0 +1,95 @@
+com/example/ansolienapp/Model/Patient.java
+ com.example.ansolienapp.Model.Patient
+com/example/ansolienapp/Ui/alertActivity.java
+ com.example.ansolienapp.Ui.alertActivity
+ com.example.ansolienapp.Ui.alertActivity$1
+com/example/ansolienapp/Fragment/mySupervisionFragment.java
+ com.example.ansolienapp.Fragment.mySupervisionFragment
+ com.example.ansolienapp.Fragment.mySupervisionFragment$1
+ com.example.ansolienapp.Fragment.mySupervisionFragment$2
+ com.example.ansolienapp.Fragment.mySupervisionFragment$3
+ com.example.ansolienapp.Fragment.mySupervisionFragment$3$1
+ com.example.ansolienapp.Fragment.mySupervisionFragment$3$2
+com/example/ansolienapp/Adapter/itemAdapter.java
+ com.example.ansolienapp.Adapter.itemAdapter
+ com.example.ansolienapp.Adapter.itemAdapter$ViewHolderTrind
+com/example/ansolienapp/Fragment/editProfileFragment.java
+ com.example.ansolienapp.Fragment.editProfileFragment
+ com.example.ansolienapp.Fragment.editProfileFragment$1
+ com.example.ansolienapp.Fragment.editProfileFragment$2
+ com.example.ansolienapp.Fragment.editProfileFragment$3
+ com.example.ansolienapp.Fragment.editProfileFragment$4
+ com.example.ansolienapp.Fragment.editProfileFragment$5
+ com.example.ansolienapp.Fragment.editProfileFragment$6
+ com.example.ansolienapp.Fragment.editProfileFragment$7
+ com.example.ansolienapp.Fragment.editProfileFragment$8
+com/example/ansolienapp/Ui/registerActivity.java
+ com.example.ansolienapp.Ui.registerActivity
+ com.example.ansolienapp.Ui.registerActivity$1
+ com.example.ansolienapp.Ui.registerActivity$2
+ com.example.ansolienapp.Ui.registerActivity$3
+com/example/ansolienapp/Ui/signUpActivity.java
+ com.example.ansolienapp.Ui.signUpActivity
+ com.example.ansolienapp.Ui.signUpActivity$1
+ com.example.ansolienapp.Ui.signUpActivity$1$1
+ com.example.ansolienapp.Ui.signUpActivity$1$2
+ com.example.ansolienapp.Ui.signUpActivity$2
+ com.example.ansolienapp.Ui.signUpActivity$3
+ com.example.ansolienapp.Ui.signUpActivity$4
+com/example/ansolienapp/Ui/MainActivity.java
+ com.example.ansolienapp.Ui.MainActivity
+ com.example.ansolienapp.Ui.MainActivity$1
+ com.example.ansolienapp.Ui.MainActivity$2
+com/example/ansolienapp/Fragment/carbohydratesFragment.java
+ com.example.ansolienapp.Fragment.carbohydratesFragment
+com/example/ansolienapp/Ui/homeActivity.java
+ com.example.ansolienapp.Ui.homeActivity
+ com.example.ansolienapp.Ui.homeActivity$1
+ com.example.ansolienapp.Ui.homeActivity$2
+com/example/ansolienapp/Ui/loginActivity.java
+ com.example.ansolienapp.Ui.loginActivity
+ com.example.ansolienapp.Ui.loginActivity$1
+ com.example.ansolienapp.Ui.loginActivity$1$1
+com/example/ansolienapp/Fragment/giveAnAccessFragment.java
+ com.example.ansolienapp.Fragment.giveAnAccessFragment
+ com.example.ansolienapp.Fragment.giveAnAccessFragment$1
+ com.example.ansolienapp.Fragment.giveAnAccessFragment$2
+ com.example.ansolienapp.Fragment.giveAnAccessFragment$3
+ com.example.ansolienapp.Fragment.giveAnAccessFragment$4
+ com.example.ansolienapp.Fragment.giveAnAccessFragment$4$1
+ com.example.ansolienapp.Fragment.giveAnAccessFragment$4$2
+com/example/ansolienapp/Fragment/generateReportFragment.java
+ com.example.ansolienapp.Fragment.generateReportFragment
+com/example/ansolienapp/BuildConfig.java
+ com.example.ansolienapp.BuildConfig
+com/example/ansolienapp/Fragment/myPatientFragment.java
+ com.example.ansolienapp.Fragment.myPatientFragment
+ com.example.ansolienapp.Fragment.myPatientFragment$1
+com/example/ansolienapp/Model/Relative.java
+ com.example.ansolienapp.Model.Relative
+com/example/ansolienapp/Ui/supHomeActivity.java
+ com.example.ansolienapp.Ui.supHomeActivity
+ com.example.ansolienapp.Ui.supHomeActivity$1
+ com.example.ansolienapp.Ui.supHomeActivity$2
+com/example/ansolienapp/Fragment/homeFragment.java
+ com.example.ansolienapp.Fragment.homeFragment
+ com.example.ansolienapp.Fragment.homeFragment$1
+ com.example.ansolienapp.Fragment.homeFragment$2
+ com.example.ansolienapp.Fragment.homeFragment$3
+ com.example.ansolienapp.Fragment.homeFragment$4
+ com.example.ansolienapp.Fragment.homeFragment$5
+com/example/ansolienapp/Model/Doctor.java
+ com.example.ansolienapp.Model.Doctor
+com/example/ansolienapp/Fragment/profileFragment.java
+ com.example.ansolienapp.Fragment.profileFragment
+ com.example.ansolienapp.Fragment.profileFragment$1
+ com.example.ansolienapp.Fragment.profileFragment$2
+com/example/ansolienapp/Fragment/myDoctorFragment.java
+ com.example.ansolienapp.Fragment.myDoctorFragment
+ com.example.ansolienapp.Fragment.myDoctorFragment$1
+ com.example.ansolienapp.Fragment.myDoctorFragment$2
+ com.example.ansolienapp.Fragment.myDoctorFragment$2$1
+ com.example.ansolienapp.Fragment.myDoctorFragment$2$2
+ com.example.ansolienapp.Fragment.myDoctorFragment$3
+com/example/ansolienapp/Fragment/myReadingFragment.java
+ com.example.ansolienapp.Fragment.myReadingFragment

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200"
+    android:paddingLeft="12sp"
+    android:paddingTop="8dp"
+    android:paddingRight="12sp"
+    android:paddingBottom="8dp"
+    android:text="1- Name khaled , email test@gmail.com"
+    android:textColor="@color/black"
+    android:textSize="18sp" />
