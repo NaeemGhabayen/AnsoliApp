@@ -21,42 +21,55 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_test"
-        android:layout_width="220dp"
+    <RadioGroup
+        android:id="@+id/rg_type"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="124dp"
-        android:background="@drawable/bg_regester"
-        android:padding="16sp"
-        android:text="Text Message"
-        android:textColor="@color/white"
+        android:layout_marginTop="64dp"
+        android:checkedButton="@+id/rd_post"
+        android:gravity="end"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_show" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_show">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton2"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="36dp"
-        android:background="@drawable/bg_regester"
-        android:padding="16sp"
-        android:text="Alarm"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_test" />
+
+        <RadioButton
+            android:id="@+id/rb_torath"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/control_switch_background_selector_middle"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Alarm"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/rb_swim"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/control_switch_background_selector_middle"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="16sp"
+            android:text="Text Message"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_next"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="152dp"
         android:background="@drawable/bg_regester"
         android:padding="16sp"
         android:text="Next"
@@ -64,5 +77,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/rg_type" />
 </androidx.constraintlayout.widget.ConstraintLayout>

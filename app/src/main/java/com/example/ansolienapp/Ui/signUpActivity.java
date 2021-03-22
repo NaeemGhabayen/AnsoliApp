@@ -9,7 +9,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.ansolienapp.Model.Doctor;
@@ -22,10 +21,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.FirebaseFirestoreException;
-import com.google.firebase.firestore.QuerySnapshot;
 
 public class signUpActivity extends AppCompatActivity {
     Intent intent;
@@ -59,12 +55,16 @@ public class signUpActivity extends AppCompatActivity {
         intent = getIntent();
         type = intent.getStringExtra("type");
         Toast.makeText(this, type, Toast.LENGTH_SHORT).show();
-        if (type.equals("As Doctor")) {
+        if (!type.equals("As Patient")) {
             et_age.setVisibility(View.GONE);
             et_year.setVisibility(View.GONE);
             et_weight.setVisibility(View.GONE);
             et_type.setVisibility(View.GONE);
             et_joker.setVisibility(View.VISIBLE);
+            if (type.equals("As Relative")){
+                et_joker.setVisibility(View.GONE);
+
+            }
             et_joker.setHint("number Clinic");
 
         }
@@ -95,19 +95,18 @@ public class signUpActivity extends AppCompatActivity {
                                             case "As Patient":
                                                 patient = new Patient(name, email, password, age, year
                                                         , weight, typePantent, phone, "default");
-                                                uploadeDataBase(patient);
+                                                uploadeDataBase(patient, userId);
                                                 break;
                                             case "As Doctor":
                                                 Toast.makeText(signUpActivity.this, "ttt", Toast.LENGTH_SHORT).show();
                                                 doctor = new Doctor(name, email, password, phone,
                                                         et_joker.getText().toString(), "default");
-                                                uploadeDataBase(doctor);
+                                                uploadeDataBase(doctor, userId);
                                                 break;
                                             case "As Relative":
                                                 relative = new Relative(name, email, password, phone,
                                                         et_joker.getText().toString(), "default");
-                                                uploadeDataBase(relative);
-
+                                                uploadeDataBase(relative, userId);
                                                 break;
                                         }
                                     }
@@ -124,26 +123,16 @@ public class signUpActivity extends AppCompatActivity {
         });
     }
 
-    private boolean CheckSign() {
-        db.collection("As Patient").whereEqualTo("idRelative", email)
-                .addSnapshotListener(new EventListener<QuerySnapshot>() {
-                    @Override
-                    public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
 
-                    }
-                });
-        return true;
-    }
-
-
-    private void uploadeDataBase(Object object) {
+    private void uploadeDataBase(Object object, String userId) {
         reference = db.collection(type).document(userId);
         reference.set(object).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(getApplicationContext(), "تم تسجيل الاشتراك بنجاح", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(getApplicationContext(), alertActivity.class)
+                    startActivity(new Intent(getApplicationContext(), alertActivity.class).putExtra("type", type)
+                            .putExtra("userId", userId)
                             .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                 }
             }
