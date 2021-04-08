@@ -51,8 +51,10 @@ public class loginActivity extends AppCompatActivity {
                     et_password.setError("يجب ادخال كلمة المرور");
                     return;
                 }
+
                 auth.signInWithEmailAndPassword(et_email.getText().toString()
-                        , et_password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        , et_password.getText().toString())
+                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {

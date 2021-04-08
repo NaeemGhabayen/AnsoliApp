@@ -1719,6 +1719,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable control_switch_background_selector_middle
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1855,7 +1856,6 @@ id all
 id always
 id animateToEnd
 id animateToStart
-id appCompatButton2
 id asConfigured
 id async
 id auto
@@ -1884,7 +1884,6 @@ id btn_next
 id btn_register
 id btn_save
 id btn_showProfile
-id btn_test
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2119,8 +2118,12 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rb_swim
+id rb_torath
+id rd_post
 id rectangles
 id reverseSawtooth
+id rg_type
 id right
 id rightToLeft
 id right_icon

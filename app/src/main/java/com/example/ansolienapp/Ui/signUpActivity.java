@@ -80,7 +80,6 @@ public class signUpActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()) {
                                         userId = auth.getUid();
-
                                         name = et_fullName.getText().toString();
                                         email = et_email.getText().toString();
                                         password = et_password.getText().toString();

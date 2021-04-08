@@ -3,6 +3,9 @@ com/example/ansolienapp/Model/Patient.java
 com/example/ansolienapp/Ui/alertActivity.java
  com.example.ansolienapp.Ui.alertActivity
  com.example.ansolienapp.Ui.alertActivity$1
+ com.example.ansolienapp.Ui.alertActivity$2
+ com.example.ansolienapp.Ui.alertActivity$2$1
+ com.example.ansolienapp.Ui.alertActivity$2$2
 com/example/ansolienapp/Fragment/mySupervisionFragment.java
  com.example.ansolienapp.Fragment.mySupervisionFragment
  com.example.ansolienapp.Fragment.mySupervisionFragment$1
@@ -35,7 +38,6 @@ com/example/ansolienapp/Ui/signUpActivity.java
  com.example.ansolienapp.Ui.signUpActivity$1$2
  com.example.ansolienapp.Ui.signUpActivity$2
  com.example.ansolienapp.Ui.signUpActivity$3
- com.example.ansolienapp.Ui.signUpActivity$4
 com/example/ansolienapp/Ui/MainActivity.java
  com.example.ansolienapp.Ui.MainActivity
  com.example.ansolienapp.Ui.MainActivity$1

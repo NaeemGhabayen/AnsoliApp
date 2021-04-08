@@ -19,7 +19,7 @@
 
 
     <EditText
-        android:id="@+id/et_password"
+        android:id="@+id/et_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
@@ -28,15 +28,25 @@
         android:hint="enter your carbohydrates set the doc"
         android:padding="16sp" />
 
+    <TextView
+        android:id="@+id/tv_viewCarb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12sp"
+        android:textColor="@color/black"
+
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_next"
+        android:id="@+id/btn_carb"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="20sp"
         android:background="@drawable/bg_regester"
         android:padding="16sp"
-        android:text="send"
+        android:text="calculate"
         android:textColor="@color/white" />
 
 </LinearLayout>
