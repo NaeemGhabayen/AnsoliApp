@@ -39,6 +39,7 @@ public class loginActivity extends AppCompatActivity {
         pref = getApplicationContext().getSharedPreferences("MyFirstPref", MODE_PRIVATE);
         editor = pref.edit();
         type = intent.getStringExtra("type");
+        Toast.makeText(loginActivity.this, type, Toast.LENGTH_SHORT).show();
         login.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -52,22 +53,31 @@ public class loginActivity extends AppCompatActivity {
                     return;
                 }
 
+
                 auth.signInWithEmailAndPassword(et_email.getText().toString()
                         , et_password.getText().toString())
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            if (!type.equals("As Patient")) {
+                            if (type.equals("As Relative")) {
+                                editor.putString("keeplogin", "true");
+                                editor.putString("type", type);
+                                editor.putString("id", auth.getUid());
+                                editor.commit();
+                              //  Toast.makeText(loginActivity.this, "rrrrrrrrrrrrrrrrrrrrr", Toast.LENGTH_SHORT).show();
                                 startActivity(new Intent(getApplicationContext(), supHomeActivity.class));
 
+
                             } else {
+                                editor.putString("keeplogin", "true");
+                                editor.putString("type", type);
+                                editor.putString("id", auth.getUid());
+                                editor.commit();
                                 startActivity(new Intent(getApplicationContext(), homeActivity.class));
+
                             }
-                            editor.putString("keeplogin", "true");
-                            editor.putString("type", type);
-                            editor.putString("id", auth.getUid());
-                            editor.commit();
+
                             Toast.makeText(loginActivity.this,
                                     "تم تسجيل دخولك بنجاح", Toast.LENGTH_SHORT).show();
                         }

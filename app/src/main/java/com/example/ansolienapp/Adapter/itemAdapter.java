@@ -34,8 +34,14 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.ViewHolderTrin
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolderTrind holder, int position) {
-        holder.tv_relative.setText(position + " - " + items.get(position).getFullName() + "          " +
-                items.get(position).getEmail());
+        if (items.get(position).getType().equals("report")){
+            holder.tv_relative.setText(position + " - " +"Reading value " +items.get(position).getFullName() +"\n"+
+                    "Reading time "+items.get(position).getEmail());
+        }else {
+            holder.tv_relative.setText(position + " - " + items.get(position).getFullName() + "          " +
+                    items.get(position).getEmail());
+
+        }
 
 
     }

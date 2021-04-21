@@ -2,13 +2,16 @@ package com.example.ansolienapp.Model;
 
 public class Relative {
     String fullName, email, password, phone, patientEmail, image;
-
+    String type;
     public Relative() {
     }
 
-    public Relative(String email, String fullName) {
-        this.email = email;
+
+
+    public Relative(String email,String fullName, String type) {
         this.fullName = fullName;
+        this.email = email;
+        this.type = type;
     }
 
     public Relative(String fullName, String email, String password, String phone, String patientEmail, String image) {
@@ -18,6 +21,14 @@ public class Relative {
         this.phone = phone;
         this.patientEmail = patientEmail;
         this.image = image;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getImage() {

@@ -19,9 +19,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         pref = getApplicationContext().getSharedPreferences("MyFirstPref", MODE_PRIVATE);
-        if (GetDataFromPref("keeplogin", "false").equals("true")) {
+        if (GetDataFromPref("keeplogin", "false").equals("true") &&
+                !GetDataFromPref("type","t").equals("As Patient")) {
+            startActivity(new Intent(getApplicationContext(), supHomeActivity.class));
+        }else if (GetDataFromPref("keeplogin", "false").equals("true") &&
+                GetDataFromPref("type","t").equals("As Patient")){
             startActivity(new Intent(getApplicationContext(), homeActivity.class));
-            return;
+
         }
     }
 

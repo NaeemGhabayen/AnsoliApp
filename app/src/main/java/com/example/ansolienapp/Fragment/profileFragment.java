@@ -1,12 +1,15 @@
 package com.example.ansolienapp.Fragment;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -19,20 +22,33 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import static android.content.Context.MODE_PRIVATE;
+
 
 public class profileFragment extends Fragment {
     TextView tv_typePantint, tv_fullName, tv_phone, tv_email, tv_year, tv_weight;
     ImageView imageProfile;
     Button btn_editProfile;
-    String type, userId;
+    String type= "x"
+            , userId;
     FirebaseFirestore db;
     FirebaseAuth auth;
     String image, fullName, phone, email, year, weight, typePatient, password, patientEmail, clinicPhone;
 
     public profileFragment(String type) {
         this.type = type;
+        Log.d("TAG", "profileFragment: "+ type);
     }
-
+    @Override
+    public void onStart() {
+        super.onStart();
+         SharedPreferences pref;
+         SharedPreferences.Editor editor;
+        pref = getContext().getSharedPreferences("MyFirstPref", MODE_PRIVATE);
+        type = pref.getString("type", "t");
+        Toast.makeText(getContext(), type, Toast.LENGTH_SHORT).show();
+        showData(type);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -52,8 +68,7 @@ public class profileFragment extends Fragment {
         auth = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();
         userId = auth.getUid();
-        showData();
-
+      //  Toast.makeText(getContext(), type + "\n"+userId, Toast.LENGTH_SHORT).show();
         btn_editProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +92,7 @@ public class profileFragment extends Fragment {
         return view;
     }
 
-    private void showData() {
+    private void showData(String type) {
         db.collection(type).document(userId).get()
                 .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
                     @Override

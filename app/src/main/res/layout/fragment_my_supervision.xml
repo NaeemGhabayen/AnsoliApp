@@ -30,13 +30,20 @@
             android:layout_margin="12sp"
             tools:itemCount="2"
             tools:listitem="@layout/item_relative" />
-
-        <lecho.lib.hellocharts.view.LineChartView
-            android:id="@+id/chart"
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="220dp"
-            android:layout_marginTop="20sp" />
+            android:layout_height="wrap_content"
+            android:layout_margin="12sp"
+            android:text="Patient readings"
+            android:textColor="@color/purple_200"
+            android:textSize="24sp" />
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_patient_readings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12sp"
+            />
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_next"
             android:layout_width="220dp"

@@ -51,7 +51,8 @@ public class carbohydratesFragment extends Fragment {
         db = FirebaseFirestore.getInstance();
         userId = auth.getUid();
 
-        db.collection("As Patient").document(userId).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+        db.collection("As Patient").document(userId).get()
+                .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
                 if (task.isSuccessful()) {

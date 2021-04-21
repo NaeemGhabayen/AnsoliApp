@@ -114,7 +114,7 @@ public class myPatientFragment extends Fragment {
                             idRelative = doc.getId();
                             String email = doc.get("email").toString();
                             String userName = doc.get("userName").toString();
-                            relativeList.add(new Relative(email, userName));
+                            relativeList.add(new Relative(email, userName,"s"));
                         }
                         adapter = new itemAdapter(getContext(), relativeList);
                         rv_relative.setHasFixedSize(true);

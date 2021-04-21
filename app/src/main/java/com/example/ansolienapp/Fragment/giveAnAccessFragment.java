@@ -107,7 +107,7 @@ public class giveAnAccessFragment extends Fragment {
                             idRelative = doc.getId();
                             String email = doc.get("emailRelative").toString();
                             String name = doc.get("nameRelative").toString();
-                            relativeList.add(new Relative(email, name));
+                            relativeList.add(new Relative(email, name,"s"));
                         }
                         adapter = new itemAdapter(getContext(), relativeList);
                         rv_relative.setHasFixedSize(true);

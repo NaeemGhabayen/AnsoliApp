@@ -1,6 +1,5 @@
 package com.example.ansolienapp.Fragment;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -35,14 +34,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import lecho.lib.hellocharts.model.Axis;
-import lecho.lib.hellocharts.model.AxisValue;
-import lecho.lib.hellocharts.model.Line;
-import lecho.lib.hellocharts.model.LineChartData;
-import lecho.lib.hellocharts.model.PointValue;
-import lecho.lib.hellocharts.model.Viewport;
-import lecho.lib.hellocharts.view.LineChartView;
-
 
 public class mySupervisionFragment extends Fragment {
     EditText et_email;
@@ -54,12 +45,10 @@ public class mySupervisionFragment extends Fragment {
     List<Relative> relativeList;
     itemAdapter adapter;
     String isAccess, mail;
-
-    String[] axisData = {"Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept",
-            "Oct", "Nov", "Dec"};
-    int[] yAxisData = {50, 20, 15, 30, 20, 60, 15, 40, 45, 10, 90, 18};
-    List yAxisValues = new ArrayList();
-    List axisValues = new ArrayList();
+    String pantint_id;
+    RecyclerView rv_patient_readings;
+    itemAdapter adapter1;
+    List<Relative> relativeList1;
 
     public mySupervisionFragment() {
         // Required empty public constructor
@@ -71,41 +60,12 @@ public class mySupervisionFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_my_supervision, container, false);
 
-
-        LineChartView lineChartView = view.findViewById(R.id.chart);
-        Line line = new Line(yAxisValues);
-
-        for (int i = 0; i < axisData.length; i++) {
-            axisValues.add(i, new AxisValue(i).setLabel(axisData[i]));
-        }
-
-        for (int i = 0; i < yAxisData.length; i++) {
-            yAxisValues.add(new PointValue(i, yAxisData[i]));
-        }
-        List lines = new ArrayList();
-        lines.add(line);
-        LineChartData data = new LineChartData();
-        data.setLines(lines);
-        lineChartView.setLineChartData(data);
-        Axis axis = new Axis();
-        axis.setValues(axisValues);
-        data.setAxisXBottom(axis);
-        Axis yAxis = new Axis();
-        data.setAxisYLeft(yAxis);
-        line = new Line(yAxisValues).setColor(Color.parseColor("#9C27B0"));
-        axis.setTextSize(16);
-        axis.setTextColor(Color.parseColor("#03A9F4"));
-        yAxis.setTextColor(Color.parseColor("#03A9F4"));
-        yAxis.setTextSize(16);
-        Viewport viewport = new Viewport(lineChartView.getMaximumViewport());
-        viewport.top = 110;
-        lineChartView.setMaximumViewport(viewport);
-        lineChartView.setCurrentViewport(viewport);
-
+        rv_patient_readings = view.findViewById(R.id.rv_patient_readings);
         et_email = view.findViewById(R.id.et_email);
         btn_add = view.findViewById(R.id.btn_add);
         rv_relative = view.findViewById(R.id.rv_relative);
         relativeList = new ArrayList<>();
+        relativeList1 = new ArrayList<>();
         db = FirebaseFirestore.getInstance();
         auth = FirebaseAuth.getInstance();
         userId = auth.getUid();
@@ -153,15 +113,75 @@ public class mySupervisionFragment extends Fragment {
                             String isAc = doc.get("isAccess").toString();
                             Toast.makeText(getContext(), "" + isAc, Toast.LENGTH_SHORT).show();
                             String email = doc.get("email").toString();
+                            getIdInformation(email);
                             String userName = doc.get("userName").toString();
                             if (isAc.equals("true"))
-                                relativeList.add(new Relative(email, userName));
+                                relativeList.add(new Relative(email, userName, "s"));
 
                         }
                         adapter = new itemAdapter(getContext(), relativeList);
                         rv_relative.setHasFixedSize(true);
                         rv_relative.setLayoutManager(new LinearLayoutManager(getContext()));
                         rv_relative.setAdapter(adapter);
+                    }
+                });
+
+    }
+
+    private void getIdInformation(String email) {
+        db.collection("As Patient").whereEqualTo("email", email)
+                .addSnapshotListener(new EventListener<QuerySnapshot>() {
+                    @Override
+                    public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
+                        if (error != null) {
+                            Toast.makeText(getContext(), error.getMessage(), Toast.LENGTH_SHORT).show();
+                            return;
+                        }
+                        for (DocumentSnapshot doc : value) {
+                            pantint_id = doc.getId();
+                            Toast.makeText(getContext(), "sadsa" + pantint_id, Toast.LENGTH_SHORT).show();
+                            Log.d("TAG", "onEvent: " + pantint_id);
+                            getInormationRading(pantint_id);
+                        }
+
+                    }
+                });
+    }
+
+    private void getInormationRading(String pantint_id) {
+        relativeList1.clear();
+        FirebaseFirestore db;
+        db = FirebaseFirestore.getInstance();
+        db.collection("Reding").whereEqualTo("user_id", pantint_id)
+                .addSnapshotListener(new EventListener<QuerySnapshot>() {
+                    @Override
+                    public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
+                        if (error != null) {
+                            Toast.makeText(getContext(), error.getMessage(), Toast.LENGTH_SHORT).show();
+                            return;
+                        }
+                        for (DocumentSnapshot doc : value) {
+                            String reading = doc.get("reading").toString();
+                            String time = doc.get("time").toString();
+                            int x = Integer.parseInt(reading);
+                            if (x>=140){
+                                reading = x+" High value";
+                                relativeList1.add(new Relative(time, reading , "report"));
+                            }else if(x<80){
+                                reading = x+" Low value";
+                                relativeList1.add(new Relative(time, reading , "report"));
+                            }else {
+                                reading = x+" Normal value";
+                                relativeList1.add(new Relative(time, reading , "report"));
+                            }
+
+
+
+                        }
+                        adapter1 = new itemAdapter(getContext(), relativeList1);
+                        rv_patient_readings.setHasFixedSize(true);
+                        rv_patient_readings.setLayoutManager(new LinearLayoutManager(getContext()));
+                        rv_patient_readings.setAdapter(adapter1);
                     }
                 });
 
